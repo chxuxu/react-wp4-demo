@@ -64,7 +64,7 @@ module.exports = {
     filename: "[name]/[chunkhash].js"
   },
   devServer: {
-    contentBase: path.resolve("./dist"),//本地服务网站的文件根目录,只有在你想要提供静态文件时才需要
+    contentBase: [path.resolve("./dist"),path.resolve("./stastic")],//本地服务网站的文件根目录,只有在你想要提供静态文件时才需要
     port: svrPort,
     publicPath:"/",//本地服务输出给用户的页面里，资源文件地址的前缀路径,只有在你想要提供静态文件时才需要
     historyApiFallback:true,//使得所有访问路径可以访问到首页

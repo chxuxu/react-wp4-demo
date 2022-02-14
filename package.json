@@ -22,7 +22,8 @@
     "cnpm": "^7.1.0",
     "ppfish": "^2.0.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "three": "^0.137.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.0",
