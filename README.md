@@ -1,4 +1,4 @@
-# react-wp4-demo-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chx
+# react-wp4-demo
 
 #非必须的包
 three
